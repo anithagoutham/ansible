@@ -1,0 +1,20 @@
+- name: this program for variables
+  hosts: web
+  vars:
+     course: "this course is for devops in aws"
+     duration: "120 hours"
+     traineer: shiva
+  tasks:
+  - name: variables
+    ansible.builtin.debug:
+      msg: "hi, {{course}}, duration is : {{duration}}, traineer is : {{traineer}}"
+
+  - name: the program for variables again
+    vars:
+      course: "this is for task level assign variable"
+    ansible.builtin.debug:
+      msg: "hi, {{course}}, duration is : {{duration}}, traineer is : {{traineer}}"
+
+  - name: the program for variables again and again
+    nsible.builtin.debug:
+      msg: "hi, {{course}}, duration is : {{duration}}, traineer is : {{traineer}}"
