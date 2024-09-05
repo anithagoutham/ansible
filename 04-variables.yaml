@@ -1,0 +1,7 @@
+- name: this program for variables
+  hosts: [web]
+  tasks:
+  - name: variables
+    ansible.builtin.debug:
+    msg: "this program is for variables in aws"
+    
