@@ -1,6 +1,6 @@
 - name: this program for variables
-  hosts: [web]
-   vars:
+  hosts: web
+  vars:
      course: "this course is for devops in aws"
      duration: "120 hours"
      traineer: shiva
