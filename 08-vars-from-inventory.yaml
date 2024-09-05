@@ -1,0 +1,6 @@
+- name: vars related to inventory
+  hosts: web
+  tasks: 
+  - name: information related to inventory
+    ansible.builtin.debug:
+      msg: "hi, {{course}}, duration is : {{duration}}, traineer is : {{traineer}}"
