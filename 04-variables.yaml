@@ -1,6 +1,10 @@
 - name: this program for variables
   hosts: [web]
+   vars:
+     course: "this course is for devops in aws"
+     duration: "120 hours"
+     traineer: shiva
   tasks:
   - name: variables
     ansible.builtin.debug:
-      msg: "this program is for variables in aws"
+      msg: "hi, {{course}}, duration is : {{duration}}, traineer is : {{siva}}"
