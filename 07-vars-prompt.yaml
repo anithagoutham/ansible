@@ -6,8 +6,8 @@
     private: false
   - name: duration
     prompt: enter the duration time
-  - name: traineer
     private: false
+  - name: traineer
     prompt: enter the traineer name
     private: false
   tasks:
