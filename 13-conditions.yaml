@@ -7,5 +7,5 @@
     register: user
 
   - name: print the id value
-    ansible.buiitin.debug:
+    ansible.builtin.debug:
       msg: "the output is : {{ user }}"
