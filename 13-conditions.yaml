@@ -8,4 +8,4 @@
 
   - name: print the id value
     ansible.buiitin.debug:
-      msg: {{ user }}
+      msg: "the output is : {{ user }}"
