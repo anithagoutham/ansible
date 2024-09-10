@@ -10,3 +10,5 @@
     - anitha
     - suresh
     - chocolate
+
+# ansible-playbook -i inventory.ini 16-loops.yaml
