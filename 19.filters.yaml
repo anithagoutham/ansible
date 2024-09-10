@@ -29,6 +29,6 @@
   - name: print the max and min values
     vars:
      number: [23,67,123,34,78,899]
-    ansible.built.in.debug:
+    ansible.builtin.debug:
       msg: " {{ number | max }} "
       msg: " {{ number | min }} "
