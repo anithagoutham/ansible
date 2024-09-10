@@ -10,5 +10,5 @@
   - name: print the name in uppercase
     vars: 
      greeting: "hello ramesh"
-     ansible.builtin.debug:
-       msg: " {{ greeting | upper}} "
+    ansible.builtin.debug:
+      msg: " {{ greeting | upper}} "
