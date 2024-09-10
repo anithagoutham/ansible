@@ -38,6 +38,6 @@
         name: "devops with aws"
         duration: 111
         trainer: "shiva"
-    ansible.buildin.debug:
+    ansible.builtin.debug:
       msg: " {{ course | dict2items}}"
       
